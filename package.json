@@ -1,0 +1,27 @@
+{
+  "name": "postly",
+  "version": "0.1.0",
+  "private": true,
+  "description": "JSONPlaceholder を使ったブログ/SNS風コンテンツアプリ（Next.js 16 × TanStack Query v5 のリアルワールド実装デモ）",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5",
+    "@tanstack/react-query-devtools": "^5",
+    "next": "^16",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
